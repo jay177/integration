@@ -1,0 +1,122 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+h1{
+  font-family: 'Poppins', sans-serif;
+  color: #FFF;
+}
+p{
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background-color: #1E1E1E;
+}
+
+
+.header{
+
+  margin-top: 10px;
+  max-width: 70%;
+  height: 93px;
+  margin-left: 2%;
+  display: flex;
+}
+
+.header h1{
+  padding-top: 20%;
+}
+
+.header .logo{
+  padding-top: 5.5%;
+}
+
+.search{
+  margin-top: 4%;
+  margin: auto;
+  margin-left: 10%;
+  width: 30%;
+}
+
+input{
+  width: 150%;
+  height: 35px;
+  border-radius: 10px;
+}
+
+.iconblock{
+  height: 60vh;
+  width: 20%;
+  display: block;
+
+}
+
+.iconAndTxt{
+
+  margin-left: 17.5%;
+  display: flex;
+}
+.iconAndTxt p{
+  margin: auto;
+  margin-top: 30px;
+  margin-left: 10px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.icon{
+  margin-top: 20px;
+  width: 40px;
+  height: 35px;
+  
+}
+
+.dashbord{
+  margin-left: 2%;
+  width: 200px;
+  height: 50px;
+  background: linear-gradient(266.37deg, #FAFF00 -5.82%, #FAFF00 15.95%, #1970D6 41.2%, #6C1182 72.88%);
+  border-radius: 17px;
+  align-items: center;
+  display: flex;
+  margin: 50px 30px 50px 30px;
+
+}
+.dashbord p{
+  margin-left: 15px;
+}
+
+.dashIcon{
+  margin-left: 20px;
+  width: 30px;
+  height: 30px;
+}
+.log{
+  margin-bottom: 3%;
+  margin-left: 5%;
+  display: flex;
+}
+
+.log p{
+  margin: auto;
+  margin-left: 10px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.accont{
+  height: 100vh;
+  width: 25vw;
+  background-color: #6C1182;
+  position: relative;
+  right: 1%;
+  top: 0;
+  display: block;
+
+}
+
+.top{
+  margin-top: 5%;
+  margin-bottom: 10%;
+  background-color: #1E1E1E;
+}
